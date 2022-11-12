@@ -14,4 +14,4 @@ set_target_properties( TcpConnection
     RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}../../bin"
 )
 
-target_link_libraries(TcpConnection Qt5::Network)
+target_link_libraries(TcpConnection Qt6::Network)
